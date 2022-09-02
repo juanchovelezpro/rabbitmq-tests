@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: source
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: shovel
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ingress-nginx
