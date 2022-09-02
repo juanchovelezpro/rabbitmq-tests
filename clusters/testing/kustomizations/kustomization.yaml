@@ -4,3 +4,4 @@ resources:
   - ../../../addons/sources
   - namespaces.yaml
   - sealed-secrets.yaml
+  - ingress-nginx.yaml
