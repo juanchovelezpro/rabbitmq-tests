@@ -6,5 +6,5 @@ resources:
   - sealed-secrets.yaml
   - weave-gitops.yaml
   - ingress-nginx.yaml
-  # - rabbitmq-gobio.yaml
-  # - rabbitmq-soarian.yaml
+  - rabbitmq-gobio.yaml
+  - rabbitmq-soarian.yaml
