@@ -16,4 +16,12 @@ spec:
       create: true
       username: admin
       passwordHash: $2a$10$7Fq0TQrRU9rSLkUGPN3oXO6gOOZhPwtFyPSsgxRHDLF4dQAHL8zZC
+    ingress:
+      enabled: true
+      className: nginx
+      hosts:
+      - host: weave-gitops.devops.com
+        paths:
+        - path: /
+          pathType: Prefix
     listOCIRepositories: true
