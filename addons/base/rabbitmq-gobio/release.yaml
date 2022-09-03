@@ -15,7 +15,7 @@ spec:
       version: 10.1.13
   interval: 1m0s
   values: 
-    replicaCount: 3
+    replicaCount: 1
     nameOverride: "rabbitmq"
     fullnameOverride: "rabbitmq"
     auth:
