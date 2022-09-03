@@ -5,3 +5,5 @@ resources:
   - namespaces.yaml
   - sealed-secrets.yaml
   - ingress-nginx.yaml
+  - rabbitmq-soarian.yaml
+  - rabbitmq-gobio.yaml
