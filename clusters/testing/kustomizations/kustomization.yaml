@@ -4,6 +4,7 @@ resources:
   - ../../../addons/sources
   - namespaces.yaml
   - sealed-secrets.yaml
-  - ingress-nginx.yaml
+  - weave-gitops.yaml
   - rabbitmq-soarian.yaml
   - rabbitmq-gobio.yaml
+  - ingress-nginx.yaml
